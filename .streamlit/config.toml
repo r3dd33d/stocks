@@ -1,26 +1,47 @@
-[theme]
-base = "light"
-primaryColor = "#0969da"
-backgroundColor = "#ffffff"
-secondaryBackgroundColor = "#f6f8fa"
-textColor = "#1F2328"
-linkColor = "#0969da"
-borderColor = "#d0d7de"
+# Light + dark, both Claude-warm. Toggle via app menu → Settings → Theme.
+
+[theme.light]
+primaryColor = "#c96442"
+backgroundColor = "#faf9f5"
+secondaryBackgroundColor = "#f0eee6"
+textColor = "#3d3929"
+linkColor = "#c96442"
+borderColor = "#d8d5cc"
 baseRadius = "8px"
-buttonRadius = "8px"
 showWidgetBorder = false
 showSidebarBorder = true
 font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
-headingFont = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"
-codeFont = "monospace"
-baseFontSize = 14
-baseFontWeight = 400
-linkUnderline = false
-chartCategoricalColors = ["#0969da", "#1a7f37", "#bf3989", "#8250df", "#cf222e", "#bf8700", "#57606a"]
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+chartCategoricalColors = ["#c96442", "#3d3929", "#7a9670", "#b08968", "#5b7a99", "#9c6b5e", "#8a7853"]
+greenColor = "#5a7a52"
+redColor = "#b04a3e"
 
-[theme.sidebar]
-backgroundColor = "#f6f8fa"
-secondaryBackgroundColor = "#eaeef2"
-textColor = "#1F2328"
-borderColor = "#d0d7de"
-primaryColor = "#0969da"
+[theme.light.sidebar]
+backgroundColor = "#f0eee6"
+secondaryBackgroundColor = "#e6e3d8"
+textColor = "#3d3929"
+borderColor = "#d8d5cc"
+primaryColor = "#c96442"
+
+[theme.dark]
+primaryColor = "#d97757"
+backgroundColor = "#262624"
+secondaryBackgroundColor = "#1f1e1d"
+textColor = "#f5f4ee"
+linkColor = "#d97757"
+borderColor = "#3a3935"
+baseRadius = "8px"
+showWidgetBorder = false
+showSidebarBorder = true
+font = "Inter:https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+codeFont = "'JetBrains Mono':https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+chartCategoricalColors = ["#d97757", "#a8b89e", "#c9a888", "#a8c0d0", "#c8a0a0", "#b8a888", "#9aa8b8"]
+greenColor = "#7a9670"
+redColor = "#d96e60"
+
+[theme.dark.sidebar]
+backgroundColor = "#1f1e1d"
+secondaryBackgroundColor = "#171615"
+textColor = "#f5f4ee"
+borderColor = "#3a3935"
+primaryColor = "#d97757"
