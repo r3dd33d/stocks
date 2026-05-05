@@ -2,7 +2,7 @@ import pandas as pd
 import pyarrow.parquet as pq
 import streamlit as st
 
-DATA_PATH = "data/kairognos_combined_2015_2026_pre_breakout.parquet"
+DATA_PATH = "data/kairognos_pre_breakout_under5k_vol500k.parquet"
 
 
 @st.cache_data(max_entries=1)

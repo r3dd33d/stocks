@@ -1,7 +1,7 @@
 # ML Project – Stock Trading Signals
 
 ## Dataset
-Download `kairognos_ml_dataset_with_mktcap.parquet` and place it in the `data/` folder.
+Download `kairognos_combined_2015_2026_pre_breakout.parquet` and place it in the `data/` folder.
 
 ## Project Structure
 ```
